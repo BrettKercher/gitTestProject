@@ -1,2 +1,2 @@
 echo "Hello World from pre-build"
-exit 0
+exit 1
