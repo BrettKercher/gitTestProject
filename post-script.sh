@@ -1,2 +1,8 @@
+echo "======================"
 echo "Hello World from post-build"
-exit 1
+echo "Workspace: $WORKSPACE"
+cd $WORKSPACE
+echo "Contents of Workspace:"
+ls -la
+echo "======================"
+exit 0
