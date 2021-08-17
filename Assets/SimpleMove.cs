@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Compilation;
 using UnityEngine;
 
 public class SimpleMove : MonoBehaviour
@@ -14,6 +15,8 @@ public class SimpleMove : MonoBehaviour
         var v = Input.GetAxis("Vertical");
 
         Controller.SimpleMove(new Vector3(h * Speed, 0, v * Speed));
+        
+        Compile error
 
     }
 }
