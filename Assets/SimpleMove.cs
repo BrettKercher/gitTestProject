@@ -15,8 +15,5 @@ public class SimpleMove : MonoBehaviour
         var v = Input.GetAxis("Vertical");
 
         Controller.SimpleMove(new Vector3(h * Speed, 0, v * Speed));
-        
-        Compile error
-
     }
 }
