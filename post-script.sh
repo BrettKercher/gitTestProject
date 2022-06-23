@@ -5,4 +5,4 @@ cd $WORKSPACE
 echo "Contents of Workspace:"
 ls -la
 echo "======================"
-exit 0
+exit 1
