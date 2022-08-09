@@ -1,4 +1,4 @@
 echo "======================"
 echo "Hello World from post-build"
 echo "======================"
-exit 0
+exit 1
