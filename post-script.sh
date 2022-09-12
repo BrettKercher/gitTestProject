@@ -1,9 +1,9 @@
 echo "======================"
 echo "Hello World from post-build"
 echo "======================"
-ls
+ls $PROJECT_DIRECTORY
 
-cat build_manifest_old.json
+cat $PROJECT_DIRECTORY/build_manifest_old.json
 echo "============"
-cat build_manifest.json
+cat $PROJECT_DIRECTORY/build_manifest.json
 exit 0
