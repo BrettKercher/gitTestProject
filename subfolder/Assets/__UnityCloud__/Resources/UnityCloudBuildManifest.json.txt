@@ -1,1 +1,0 @@
-{"cloudBuildTargetName":"default-mac-desktop-universal","buildNumber":"396","scmCommitId":null,"buildStartTime":"2022-09-13 10:56:42 -0500","projectId":"brettkercher/gittestproject","bundleId":"com.brett.test","scmBranch":"master","unityVersion":"2020.3.38f1","assetBundles.localBundlesRelativePath":"AssetBundles/OSX","assetBundles.localBundles":["OSX","testbundle"]}
