@@ -4,6 +4,6 @@ echo "======================"
 ls $PROJECT_DIRECTORY
 
 cat $PROJECT_DIRECTORY/build_manifest_old.json
-echo "==============="
+echo "=============="
 cat $PROJECT_DIRECTORY/build_manifest.json
 exit 0
