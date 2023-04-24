@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 public class SimpleMove : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class SimpleMove : MonoBehaviour
     {
         var h = Input.GetAxis("Horizontal");
         var v = Input.GetAxis("Vertical");
+        
+        Debug.Log(BuildTarget.GameCoreXboxSeries);
 
         Controller.SimpleMove(new Vector3(h * Speed, 0, v * Speed));
     }
