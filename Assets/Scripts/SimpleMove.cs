@@ -4,7 +4,7 @@ using UnityEngine;
 public class SimpleMove : MonoBehaviour
 {
     public CharacterController Controller;
-    public float Speed = 11;
+    public float Speed = 10;
 
     // Update is called once per frame
     void Update()
