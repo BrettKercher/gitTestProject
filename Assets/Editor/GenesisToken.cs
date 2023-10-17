@@ -13,15 +13,6 @@ public class GenesisToken : MonoBehaviour
         [MenuItem("DevTools/Buildpack-DLL Test")]
         internal static void TestDLL()
         {
-            Debug.Log("Testing DLL");
-            try
-            {
-                UnityEditor.CloudBuild.Builder.Test();
-            }
-            catch (Exception e)
-            {
-                Debug.Log($"Error Running Buildpack: {e.Message}");
-            }
-            
+
         }
 }
