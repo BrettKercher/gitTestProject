@@ -30,3 +30,6 @@ Assets/__UnityCloud__/
 *.rsp
 *.rsp.meta
 bvr/
+[Bb]uild/
+[Bb]uild.app
+[Bb]uild.zip
