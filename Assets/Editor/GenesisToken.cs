@@ -1,5 +1,6 @@
 using System;
 using UnityEditor;
+using UnityEditor.Build;
 using UnityEngine;
 
 public class GenesisToken : MonoBehaviour
@@ -10,9 +11,10 @@ public class GenesisToken : MonoBehaviour
             Debug.Log(CloudProjectSettings.accessToken);
         }
         
-        [MenuItem("DevTools/Buildpack-DLL Test")]
+        [MenuItem("DevTools/TestStuff")]
         internal static void TestDLL()
         {
-
+            NamedBuildTarget namedBuildTarget = NamedBuildTarget.FromBuildTargetGroup(EditorUserBuildSettings.selectedBuildTargetGroup);
+            Debug.Log(PlayerSettings.GetScriptingDefineSymbols(namedBuildTarget));
         }
 }
